@@ -30,12 +30,12 @@ python main.py
 
 Or if you want to run it in the background (don't include the brackets):
 ```
-python3 maincmd.py [email] [maximum length of password]
+python3 maincmd.py [email] [maximum length of password] &
 ```
 
 For example:
 ```
-python3 maincmd.py test@example.com 10
+python3 maincmd.py test@example.com 10 &
 ```
 
 
