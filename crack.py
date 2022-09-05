@@ -21,5 +21,4 @@ def crack(settings, clear):
   guessed = []
   while not glogin.login(id,guess):
     guess = go()
-    print(guess)
   return guess, id
