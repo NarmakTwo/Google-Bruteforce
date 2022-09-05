@@ -12,7 +12,7 @@ def clear():
 
 
 aSettings = {
-  "mLength":sys.argv[2]
+  "mLength":int(sys.argv[2])
 }
 
 pwd, id = crack.crack(sys.argv[1], aSettings, clear)
