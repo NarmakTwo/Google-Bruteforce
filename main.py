@@ -53,11 +53,12 @@ def main_loop():
     main_loop()
   elif choice == '1':
     clear()
-    pwd, id = crack.crack(aSettings, clear)
+    id = input('Email: ')
+    pwd, id2 = crack.crack(id, aSettings, clear)
     clear()
     print(f'Lets Gooooooooooooo!!!!!!\n The password is {pwd}')
     with open('passwords.csv','a') as f:
-      f.write(f'\n{date.today().strftime("%d/%m/%Y")}, {id}, {pwd}')
+      f.write(f'\n{date.today().strftime("%d/%m/%Y")}, {id2}, {pwd}')
       
   elif choice == '2':
     settings()
