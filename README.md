@@ -23,9 +23,19 @@ With Python 2
 ```
 python2 main.py
 ```
-Or the system's default
+The system's default
 ```
 python main.py
+```
+
+Or if you want to run it in the background (don't include the brackets):
+```
+python3 maincmd.py [email] [maximum length of password]
+```
+
+For example:
+```
+python3 maincmd.py test@example.com 10
 ```
 
 
