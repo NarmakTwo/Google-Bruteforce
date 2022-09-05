@@ -27,3 +27,14 @@ Or the system's default
 ```
 python main.py
 ```
+
+
+## What does this do?
+This project generates random passwords and tries to log in to someone's google account using those passwords,
+When you run the code, and you select `1. Crack`, it will ask you for the email of the google account you want to crack
+
+## What does crack mean?
+Crack is a hacking term for [when someone performs a security hack for malicious or ethical reasons](https://www.avast.com/c-cracking#:~:text=Cracking%20is%20when%20someone%20performs,aid%20of%20their%20technical%20wizardry.)
+
+## Is this legal?
+It depends on what you do with the password, also idk i'm not a lawyer
