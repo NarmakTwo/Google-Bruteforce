@@ -14,7 +14,7 @@ click @ https://files.pythonhosted.org/packages/c2/f1/df59e28c642d583f7dacffb1e0
 clikit==0.6.2
 cPython==0.0.6
 crashtest==0.3.1
-cryptography==37.0.4
+cryptography==41.0.6
 Cython==0.29.32
 debugpy @ https://files.pythonhosted.org/packages/d2/e3/d0531ee73216d553d717bf4ac51dff297f89054619fa69db61eef028a07f/debugpy-1.6.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl#sha256=daadab4403427abd090eccb38d8901afd8b393e01fd243048fab3f1d7132abb4
 distlib==0.3.5
